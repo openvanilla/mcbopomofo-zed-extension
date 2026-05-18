@@ -6,5 +6,5 @@
 
 "-" @punctuation.delimiter
 
-(invalid_line) @error
-(ERROR) @error
+(invalid_line) @invalid
+(ERROR) @invalid
