@@ -7,4 +7,4 @@ description = "Syntax highlighting for McBopomofo data files."
 
 [grammars.mcbopomofo_data]
 repository = "file:///Users/zonble/Work/mcbopomofo-zed-extension"
-rev = "1c3d421745d9e52390c0fa64e6e94a144b131b5b"
+commit = "main"
