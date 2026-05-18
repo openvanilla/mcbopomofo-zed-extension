@@ -6,5 +6,5 @@ authors = ["Zonble <zonble@gmail.com>"]
 description = "Syntax highlighting for McBopomofo data files."
 
 [grammars.mcbopomofo_data]
-repository = "file://./tree-sitter-mcbopomofo_data"
+repository = "file:///Users/zonble/Work/mcbopomofo-zed-extension"
 commit = "HEAD"
