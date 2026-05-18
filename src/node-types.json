@@ -26,6 +26,21 @@
   {
     "type": "invalid_line",
     "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "word",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "reading",
+    "named": true,
     "fields": {}
   },
   {
@@ -68,19 +83,16 @@
     }
   },
   {
+    "type": "word",
+    "named": true,
+    "fields": {}
+  },
+  {
     "type": "#",
     "named": false
   },
   {
     "type": "-",
     "named": false
-  },
-  {
-    "type": "reading",
-    "named": true
-  },
-  {
-    "type": "word",
-    "named": true
   }
 ]

@@ -3,6 +3,11 @@ module.exports = grammar({
 
   extras: $ => [],
 
+  conflicts: $ => [
+    [$.entry, $._line_content],
+    [$.entry, $.invalid_line]
+  ],
+
   rules: {
     source_file: $ => repeat($._line),
 
@@ -22,19 +27,26 @@ module.exports = grammar({
       $._newline
     ),
 
-    word: $ => /[^\s#]+/,
-
-    _separator: $ => /[\t ]+/,
-
     readings: $ => seq(
       $.reading,
       repeat(seq('-', $.reading))
     ),
 
+    invalid_line: $ => seq(
+      $._line_content,
+      $._newline
+    ),
+
+    _line_content: $ => repeat1(choice(
+      $.word,
+      $._separator,
+      '-'
+    )),
+
+    word: $ => /[^\s#\-]+/, 
     reading: $ => /[^\s#\-]+/,
 
-    invalid_line: $ => seq(token(prec(-1, /[^\n\r]+/)), $._newline),
-
+    _separator: $ => /[\t ]+/,
     _newline: $ => /\r?\n/
   }
 });

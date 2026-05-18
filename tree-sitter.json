@@ -19,7 +19,10 @@
   "metadata": {
     "version": "0.1.0",
     "authors": [
-      "Zonble <zonble@gmail.com>"
+      {
+        "name": "Zonble",
+        "email": "zonble@gmail.com"
+      }
     ],
     "license": "MIT",
     "description": "Tree-sitter grammar for McBopomofo data files"
