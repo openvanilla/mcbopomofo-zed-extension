@@ -1,0 +1,4 @@
+name = "McBopomofo Data"
+grammar = "mcbopomofo_data"
+path_filenames = ["data.txt", "excluded-phrases.txt"]
+line_comments = ["# "]

@@ -1,0 +1,10 @@
+id = "mcbopomofo-data"
+name = "McBopomofo Data"
+version = "0.1.0"
+schema_version = 1
+authors = ["Zonble <zonble@gmail.com>"]
+description = "Syntax highlighting for McBopomofo data files."
+
+[grammars.mcbopomofo_data]
+repository = "file://./tree-sitter-mcbopomofo_data"
+commit = "HEAD"

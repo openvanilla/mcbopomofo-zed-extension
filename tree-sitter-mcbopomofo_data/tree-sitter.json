@@ -1,0 +1,27 @@
+{
+  "name": "tree-sitter-mcbopomofo-data",
+  "version": "0.1.0",
+  "main": "bindings/node",
+  "types": "bindings/node",
+  "lib": {
+    "directory": "lib"
+  },
+  "grammars": [
+    {
+      "name": "mcbopomofo_data",
+      "camelCase": "McBopomofoData",
+      "scope": "source.mcbopomofo_data",
+      "file-types": [
+        "txt"
+      ]
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "authors": [
+      "Zonble <zonble@gmail.com>"
+    ],
+    "license": "MIT",
+    "description": "Tree-sitter grammar for McBopomofo data files"
+  }
+}
