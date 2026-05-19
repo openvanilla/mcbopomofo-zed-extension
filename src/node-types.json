@@ -32,6 +32,10 @@
       "required": false,
       "types": [
         {
+          "type": "hyphen",
+          "named": true
+        },
+        {
           "type": "word",
           "named": true
         }
@@ -51,6 +55,10 @@
       "multiple": true,
       "required": true,
       "types": [
+        {
+          "type": "hyphen",
+          "named": true
+        },
         {
           "type": "reading",
           "named": true
@@ -92,7 +100,7 @@
     "named": false
   },
   {
-    "type": "-",
-    "named": false
+    "type": "hyphen",
+    "named": true
   }
 ]

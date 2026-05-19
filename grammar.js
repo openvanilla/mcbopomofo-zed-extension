@@ -29,7 +29,7 @@ module.exports = grammar({
 
     readings: $ => seq(
       $.reading,
-      repeat(seq('-', $.reading))
+      repeat(seq($.hyphen, $.reading))
     ),
 
     invalid_line: $ => seq(
@@ -40,11 +40,12 @@ module.exports = grammar({
     _line_content: $ => repeat1(choice(
       $.word,
       $._separator,
-      '-'
+      $.hyphen
     )),
 
     word: $ => /[^\s#\-]+/, 
     reading: $ => /[^\s#\-]+/,
+    hyphen: $ => '-',
 
     _separator: $ => /[\t ]+/,
     _newline: $ => /\r?\n/

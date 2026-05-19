@@ -81,8 +81,8 @@
             "type": "SEQ",
             "members": [
               {
-                "type": "STRING",
-                "value": "-"
+                "type": "SYMBOL",
+                "name": "hyphen"
               },
               {
                 "type": "SYMBOL",
@@ -120,8 +120,8 @@
             "name": "_separator"
           },
           {
-            "type": "STRING",
-            "value": "-"
+            "type": "SYMBOL",
+            "name": "hyphen"
           }
         ]
       }
@@ -133,6 +133,10 @@
     "reading": {
       "type": "PATTERN",
       "value": "[^\\s#\\-]+"
+    },
+    "hyphen": {
+      "type": "STRING",
+      "value": "-"
     },
     "_separator": {
       "type": "PATTERN",

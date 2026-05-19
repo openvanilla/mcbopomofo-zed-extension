@@ -2,7 +2,7 @@
 
 (entry (word) @string)
 (entry (readings (reading) @type))
-(entry "-" @punctuation.delimiter)
+(entry (readings (hyphen) @punctuation.delimiter))
 
 (invalid_line) @invalid
 (invalid_line _) @invalid
