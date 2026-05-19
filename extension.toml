@@ -6,5 +6,5 @@ authors = ["Weizhong Yang <zonble@gmail.com>"]
 description = "Syntax highlighting for McBopomofo data files."
 
 [grammars.mcbopomofo_data]
-repository = "https://github.com/openvanilla/mcbopomofo-zed-extension"
-rev = "9ca478f9bf5eb4aaecb0bae9f19bdafddd36caf8"
+repository = "file:///Users/zonble/Work/mcbopomofo-zed-extension"
+rev = "f50cd2250ab4e0b06e103ef2febc6e40cb17b09d"
