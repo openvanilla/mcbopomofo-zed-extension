@@ -11,16 +11,14 @@
       "name": "mcbopomofo_data",
       "camelCase": "McBopomofoData",
       "scope": "source.mcbopomofo_data",
-      "file-types": [
-        "txt"
-      ]
+      "file-types": ["txt"]
     }
   ],
   "metadata": {
     "version": "0.1.0",
     "authors": [
       {
-        "name": "Zonble",
+        "name": "Weizhong Yang",
         "email": "zonble@gmail.com"
       }
     ],
