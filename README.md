@@ -1,6 +1,10 @@
 # McBopomofo Data Extension for Zed
 
-This extension provides syntax highlighting for McBopomofo data files (`data.txt` and `excluded-phrases.txt`).
+Copyright (c) 2026 and onwards The McBopomofo Authors.
+
+This [Zed](https://zed.dev/) extension provides syntax highlighting for McBopomofo data files (`data.txt` and `excluded-phrases.txt`).
+
+![screenshot](screenshot.png)
 
 ## Features
 
